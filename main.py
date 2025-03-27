@@ -1,4 +1,5 @@
 import modlinegen
+# The main module will handle the initialization by importing the ui module
 import modlinegen_name_semi
 import modlinegen_semi
 import os

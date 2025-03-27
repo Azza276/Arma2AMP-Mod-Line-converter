@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import os
 from main import process_file
+from version import VERSION  # Import the version number
 
 # Global variable to store the full file path
 full_file_path = ""
@@ -59,7 +60,7 @@ def exit_app():
 
 # Create the main window
 root = tk.Tk()
-root.title("HTML to Mod Line Converter")
+root.title(f"HTML to Mod Line Converter v{VERSION}")  # Display the version number in the title
 root.geometry("650x650")
 root.resizable(True, True)
 

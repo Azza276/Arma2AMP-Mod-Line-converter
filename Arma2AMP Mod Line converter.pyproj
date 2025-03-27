@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Arma2AMP_Mod_Line_converter.pyw" />
+    <Compile Include="version.py" />
     <Compile Include="ui.py" />
     <Compile Include="modlinegen.py" />
     <Compile Include="modlinegen_name_semi.py" />
